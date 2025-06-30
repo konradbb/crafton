@@ -1,0 +1,71 @@
+// Base colors
+$color-primary: #316FAF;     
+$color-dark: #11273D;
+$color-text: #4D4D4D;
+$color-white: #ffffff;
+$color-stroke: #D3E0EB;
+$color-surface-subtle: #ECF4FA;
+$color-surface-alt: #F6FBFF;
+$color-surface-light: #FEFEFE;
+$color-error: #dc3545;
+
+
+// Containers
+$container-max-width: 82.5rem;
+
+
+.content-container {
+  max-width: $container-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+h1{
+    font-size: clamp(3rem, 2.5559rem + 1.8947vw, 4.6875rem);
+    line-height: 1.2;   
+    font-family: 'ClashDisplay', "Arial", "Helvetica", sans-serif;
+    color: $color-dark;
+}
+
+h2{
+    font-size: clamp(1.6rem, 1.3303rem + 1.1509vw, 2.625rem);
+    line-height: 1.2;   
+    font-family: 'ClashDisplay', "Arial", "Helvetica", sans-serif;
+    color: $color-dark;
+}
+
+h3{
+    font-size: clamp(1.4rem, 1.2421rem + 0.6737vw, 2rem);
+    line-height: 1.4;   
+    font-family: 'ClashDisplay', "Arial", "Helvetica", sans-serif;
+    color: $color-dark;
+}
+
+h4{
+    font-size: clamp(1rem, 0.9671rem + 0.1404vw, 1.125rem);
+    line-height: 1.6;   
+    font-family: 'ClashDisplay', "Arial", "Helvetica", sans-serif;
+    color: $color-dark;
+}
+
+p{
+    font-size: clamp(0.75rem, 0.6842rem + 0.2807vw, 1rem);
+    line-height: 1.6;   
+    color: $color-text;
+
+    &.text-large{
+        font-size: clamp(1rem, 0.9671rem + 0.1404vw, 1.125rem);
+    }
+
+    &.text-small{
+        font-size: clamp(0.625rem, 0.5592rem + 0.2807vw, 0.875rem);
+        line-height: 1.5;   
+    }
+
+    &.text-extraSmall{
+        font-size: clamp(0.6rem, 0.5934rem + 0.0281vw, 0.625rem);
+        line-height: 1.5;   
+    }
+}
